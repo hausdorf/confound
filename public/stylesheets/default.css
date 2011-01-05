@@ -14,3 +14,8 @@ body {
 	width:300px;
 	float:right;
 }
+
+#left-panel{
+	width:500px;
+	float:left;
+}
