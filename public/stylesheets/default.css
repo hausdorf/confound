@@ -3,3 +3,9 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 }
+
+#random-science {
+	text-align:center;
+	color:#4183C4;
+	font:bold 40px Arial;
+}
