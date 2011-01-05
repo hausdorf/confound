@@ -1,9 +1,58 @@
 body {
 	width:800px;
+	margin:0;
 	margin-left:auto;
 	margin-right:auto;
+	font-family:Arial;
 }
-	
+	ul#navbar {
+		background-color:#eee;
+		background: #7d7d7d url(../images/gradient.png) repeat-x 0 -100px;
+		list-style:none;
+		font-weight:bold;
+		margin-left:0px;
+		padding:0px;
+		padding-top:0;
+		-moz-border-radius-bottomleft:14px;
+		-webkit-border-bottom-left-radius:14px;
+		-moz-border-radius-bottomright:14px;
+		-webkit-border-bottom-right-radius:14px;
+		-moz-box-shadow: 3px 1px 5px #bbb;
+		-webkit-box-shadow: 3px 1px 5px #bbb;
+	}
+
+		ul#navbar li {
+			display:inline-block;
+			background-color:#ddd;
+			background: #666 url(../images/gradient.png) repeat-x 0 -5px;
+			border:solid 1px #bbb;
+			border-top:none;
+			border-bottom:solid 1px #888;
+			padding:10px;
+			margin-left:-5px;
+		}
+
+			ul#navbar li:hover {
+				background: #888 url(../images/gradient.png) repeat-x 0 -0px;
+			}
+
+			ul#navbar li:first-child {
+				margin-left:0px;
+				-moz-border-radius-bottomleft:14px;
+				-webkit-border-bottom-left-radius:14px;
+			}
+
+			ul#navbar li a {
+				text-decoration:none;
+				text-shadow: 1px 1px 0 #fff;
+				text-align:center;
+				color:#4183C4;
+			}
+
+				ul#navbar li a:hover{
+					color:#000;
+				}
+
 	#random-science {
 		text-align:center;
 		color:#4183C4;
